@@ -147,3 +147,26 @@ Task dinyatakan berhasil apabila:
 - Tidak ada major issue pasca go-live
 - User adoption > 90%
 - Approval dari stakeholder
+
+
+# RACI Matrix
+|Process	|Sales	|Operation	|Finance	|Accounting	|Asset	|Delivery	| IT  |
+|   --   |  --- | -------- | ------ | --------- | ---- | ------- | -- |
+|Lead    |Entry	|R	        | A	     |I	I        |	-    |	-	      |C  |
+|Quotation	|R	|C	|I	|I	|-	|-	|C |
+|Sales Order	|R	|A	| I	| I	| -	|-	| C |
+|Job Order	| I	| R	| I	| I	| C	| C	| A |
+|Fleet Assignment	| I	| R	| I	| I	| R	| C	| C |
+|Delivery Execution	| I	| A	| I	| I	| C	| R	| C |
+|Invoice Creation	| I	| C	| R	| A	| -	| -	| C |
+|Payment Recording	| I	| I	| R	| A	| -	| -	| C |
+|Journal Posting	| I	| I	| C	| R	| -	| -	| C |
+|Asset Depreciation	| I	| I	| I	| A	| R	| -	| C |
+|System Maintenance	| I	| I	| I	| I	| I	| I	| R |
+
+# Legend :
+R = Responsible, 
+A = Accountable, 
+C = Consulted, 
+I = Informed.
+
